@@ -1,3 +1,29 @@
-h1 {
-  color: rgb(250, 183, 0);
+#heading {
+  display: flex;
+}
+
+#heading h1 {
+  text-align: center;
+
+  /* display: inline; */
+  margin: 0 auto;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.do-items {
+  display: flex;
+
+  /* justify-content: center; */
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.item-dlt-btn {
+  margin: 0 0 0 2rem;
 }
