@@ -31,7 +31,7 @@ const displayTasks = () => {
         <input type='checkbox' name='${task}'>
         <label for=task>${task.description}</label>
         <div class="item-dlt-btn">
-        <i class="fa-solid fa-xmark"></i>
+        <i class="fa-solid fa-xmark do-cross"></i>
       </div>
         <br>
       </div>
