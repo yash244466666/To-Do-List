@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>To Do List</title>
 </head>
 <body>
-    <h1>Hello Webpack!!!!!!!</h1>
+    <div id="heading">
+        <h1>Today's To Do List</h1>
+        <button class="reset-list">
+            <i class="fa-solid fa-arrows-rotate"></i>
+        </button>
+    </div>
+
+    <div class="todo-list">
+        <div class="list-head">
+            <input class="task-input" type="text" placeholder="Add to your list...">
+        </div>
+
+        <div id="task"></div>
+
+        <div class="clear-complete-btn">
+            <button>Clear Complete Tasks</button>
+        </div>
+    </div>
+
+
     
 </body>
 </html>
