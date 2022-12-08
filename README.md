@@ -4,10 +4,8 @@
 To Do List
 
 # Description the project.
-Microverse Day 3 project. 
+Microverse Module Tow Day Tow project. 
 
-# Online version of the project.
-https://yash244466666.github.io/Microverse---Portfolio-setup-and-mobile-first/
 
 ## Built With
 
