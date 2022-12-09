@@ -6,6 +6,7 @@ import './style.css';
 
 class TaskList {
   allTasks = [];
+  // tasks = JSON.stringify(this.allTasks);
 
   addTask(description) {
     const task = {
@@ -41,11 +42,15 @@ class TaskList {
 
   completedTask(status, index) {
     this.allTasks[index - 1].isCompleted = status;
+    // this.updateIndex();
     this.saveTask();
   }
 
   editTask(paragraph, index) {
     this.allTasks[index - 1].description = paragraph.textContent;
+    JSON.stringify(this.allTasks);
+    localStorage.setItem('tasks', this.saveTask.tasks);
+    this.updateIndex();
     this.saveTask();
   }
 
@@ -101,6 +106,7 @@ const displayTasks = () => {
 
       list.onclick = () => {
         descript.contentEditable = 'true';
+        TaskList.saveTask();
       };
       listContainer.append(list);
       return list;
