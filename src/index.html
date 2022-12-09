@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <title>To Do List</title>
-</head>
-<body>
-    <div id="heading">
-        <h1>Today's To Do List</h1>
-        <button class="reset-list">
-            <i class="fa-solid fa-arrows-rotate"></i>
-        </button>
+  </head>
+  <body>
+    <div>
+      <ul class="todo-list">
+        <li class="heading">
+          <h1>Today's To do</h1>
+          <i class="fa-solid fa-arrows-rotate"></i>
+        </li>
+
+        <li class="add-task">
+          <form class="list-head" action="#" id="form">
+            <input id="task-info" type="text" placeholder="Add to your list" />
+          </form>
+        </li>
+        <li class="tasks"></li>
+        <li class="clear">
+          <button id="clear-btn">Clear all completed</button>
+        </li>
+      </ul>
     </div>
-
-    <div class="todo-list">
-        <div class="list-head">
-            <input class="task-input" type="text" placeholder="Add to your list...">
-        </div>
-
-        <div id="task"></div>
-
-        <div class="clear-complete-btn">
-            <button>Clear Complete Tasks</button>
-        </div>
-    </div>
-
-
-    
-</body>
+  </body>
 </html>

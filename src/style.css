@@ -4,53 +4,33 @@
   font-family: 'Poppins', sans-serif;
 }
 
-#heading {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task-div {
   display: flex;
-  justify-content: space-between;
+  gap: 1rem;
+}
+
+.itme-desc {
+  display: flex;
   align-items: center;
 }
 
-.todo-list {
-  display: flex;
-  flex-direction: column;
-
-  /* align-items: center; */
-  margin-top: 1rem;
+.itme-desc:nth-child(even) {
+  background-color: rgb(150, 150, 150);
 }
 
-.task-input {
-  width: 80vw;
-  border: 1px solid #b7b6b6;
-  padding: 1rem;
-}
-
-.do-items {
-  display: flex;
-
-  /* justify-content: center; */
-  align-items: center;
-  margin: 1rem 0 1rem 0;
-  border-bottom: 1px solid #b7b6b6;
-  width: 80vw;
-  padding: 1rem;
-}
-
-.item-dlt-btn {
-  margin: 0 0 0 auto;
-}
-
-.clear-complete-btn {
-  width: 84.2vw;
-}
-
-.clear-complete-btn button {
-  width: 100%;
-  padding: 1rem 0;
-  border: none;
-  margin: -2rem 0 0 0;
-}
-
-.reset-list {
-  border: none;
-  background-color: transparent;
+.X {
+  /* align-self: flex-end; */
+  margin: 0 1rem 0 auto;
 }
