@@ -48,9 +48,6 @@ class TaskList {
 
   editTask(paragraph, index) {
     this.allTasks[index - 1].description = paragraph.textContent;
-    JSON.stringify(this.allTasks);
-    localStorage.setItem('tasks', this.saveTask.tasks);
-    this.updateIndex();
     this.saveTask();
   }
 
@@ -104,10 +101,15 @@ const displayTasks = () => {
       deleteIcon.id = a.index;
       list.appendChild(deleteIcon);
 
+      descript.addEventListener('keyup', () => {
+        todo.editTask(descript, a.index);
+      });
+
       list.onclick = () => {
         descript.contentEditable = 'true';
-        TaskList.saveTask();
+        todo.saveTask();
       };
+
       listContainer.append(list);
       return list;
     });
