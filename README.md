@@ -80,13 +80,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://dreamy-cannoli-000b6a.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-<!-- GETTING STARTED -->
+<!-- GETTING STARTED
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -103,6 +103,7 @@ Clone this repository to your desired folder:
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author 1**
+
 - Yash
 - GitHub: [Yash](https://github.com/yash244466666)
 - LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
