@@ -12,6 +12,7 @@ REQUIRED SECTIONS:
   - Built With
   - Live Demo
 - Getting Started
+npm i
 - Authors
 - Future Features
 - Contributing
