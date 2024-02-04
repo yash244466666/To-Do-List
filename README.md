@@ -4,7 +4,7 @@
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
+Could you modify this file to match your project and remove sections that don't apply?
 
 REQUIRED SECTIONS:
 - Table of Contents
@@ -12,7 +12,7 @@ REQUIRED SECTIONS:
   - Built With
   - Live Demo
 - Getting Started
-npm i
+
 - Authors
 - Future Features
 - Contributing
@@ -20,7 +20,7 @@ npm i
 - Acknowledgements
 - License
 
-After you're finished please remove all the comments and instructions!
+After you're finished, please remove all the comments and instructions!
 -->
 
 <div align="center">
@@ -52,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 To Do list <a name="about-project"></a>
 
-**To Do List** is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It's build using a simple website using ES6 and Webpack!
+**To Do List** is a tool that helps to organize your day. It simply lists what you must do and allows you to mark them as complete. It's built using a simple website using ES6 and Webpack!
 
 ## 🛠 Built With <a name="built-with"></a>
 
