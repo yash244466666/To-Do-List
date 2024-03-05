@@ -100,6 +100,7 @@ Clone this repository to your desired folder:
 - GitHub: [Yash](https://github.com/yash244466666)
 - LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
 - Twitter: [Yash Solo](https://twitter.com/yash_solo000)
+- Email: hello@yashcodes.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
