@@ -101,6 +101,7 @@ Clone this repository to your desired folder:
 - LinkedIn: [Yash Solo](https://www.linkedin.com/in/yash-solo)
 - Twitter: [Yash Solo](https://twitter.com/yash_solo000)
 - Email: hello@yashcodes.com
+- Website: https://www.yashcodes.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
